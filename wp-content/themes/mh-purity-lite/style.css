@@ -88,7 +88,7 @@ select { max-width: 100%; }
 
 .header-wrap { position: relative; margin: 0 15px; border-top: 5px solid red; }
 .header-wrap a { text-decoration: none; }
-.logo-wrap { position: relative; overflow: hidden; min-height: 80px; padding: 42px 0 30px; }
+.logo-wrap { position: relative; overflow: hidden; min-height: 80px; padding: 42px 0 30px; display: none;}
 .logo { display: inline-block; }
 .logo-name { font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 300; color: #000; text-transform: uppercase; display: inline-block; }
 .logo-desc { font-family: 'Vollkorn', serif; font-size: 14px; font-size: 0.875rem; font-weight: 400; color: #b3b3b3; font-style: italic; text-align: right; display: inline-block; }
@@ -376,6 +376,7 @@ textarea { width: 96%; line-height: 1.5; padding: 5px; padding: 0.3125rem; borde
    	.sidebar .cp-count-1 .cp-large-thumb, .hp-sidebar .cp-count-1 .cp-large-thumb { float: left; margin-right: 30px; }
    	.cp-list-item:first-child { margin-top: 0; }
    	.col-1-3 { width: 222px; }
+   	.main-nav {display: none;}
 }
 
 @media screen and (max-width: 767px) {
