@@ -397,7 +397,7 @@ textarea { width: 96%; line-height: 1.5; padding: 5px; padding: 0.3125rem; borde
    	.cp-list-item:first-child, .home-wide .cp-list-item:first-child { margin-top: 10px; }
    	.cp-list-item .meta { display: none; }
    	.col-1-3 { width: 100%; margin: 0; }
-   	.js .tinynav { display: block; width: 100%; padding: 0.25em 0; }
+   	.js .tinynav { display: none; width: 100%; padding: 0.25em 0; }
 	.js .main-nav { border: none; }
 	.js .main-nav .menu { display: none; }
 }
